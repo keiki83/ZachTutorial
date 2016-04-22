@@ -1,9 +1,11 @@
 #include <iostream>
+#include "stack.hpp"
 
 
 int main() {
-    std::cout << "Hello world!" << std::endl;
+    Stack<int> s;
+
     return 0;
 }
 
-// Hello! 
+// Hello!
