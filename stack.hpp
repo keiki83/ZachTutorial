@@ -7,7 +7,7 @@ private:
   // variables
   T* stack;                   // pointer to dynamically allocated array
   int count;                  // count of the number of elements stored in stack
-  // Helper fucntion
+  // Helper function
   void ensureLength();
 
 public:
