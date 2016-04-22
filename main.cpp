@@ -6,9 +6,4 @@ int main() {
     return 0;
 }
 
-
-
-// Zach's first push...????
-
-
-// WHAT THE HECK!
+// Hello! 
