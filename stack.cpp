@@ -46,7 +46,7 @@ void Stack<T>::clear() {
 
 // push will add an item to the top of the stack
 template<class T>
-bool Stack<T>::push(T) {
+bool Stack<T>::push(T input) {
 
 }
 
