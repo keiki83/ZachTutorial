@@ -3,7 +3,7 @@
 
 
 int main() {
-    Stack<int> s;
+    Stack<int> s();
 
     return 0;
 }
