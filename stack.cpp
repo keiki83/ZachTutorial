@@ -70,8 +70,7 @@ void Stack<T>::clear() {
 template<class T>
 void Stack<T>::push(T input) {
   ensureLength();
-  stack[count] = input;
-  count++;
+  stack[count++] = input;
 
   return;
 }

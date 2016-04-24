@@ -5,7 +5,7 @@ template<class T>
 class Queue {
 private:
   // variables
-  T* stack;                   // pointer to dynamically allocated array
+  T* queue;                   // pointer to dynamically allocated array
   int used;                   // number of elements stored in array
   int length;                 // size of array
 
@@ -20,7 +20,7 @@ public:
 
   // accessor
   bool empty();
-  int size();
+  const int& size() const;
   T peek();
 
   // mutator

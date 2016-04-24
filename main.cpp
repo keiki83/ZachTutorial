@@ -4,10 +4,10 @@
 
 
 int main() {
-    Stack<int> s;
+    Queue<int> s;
 
     for(int i = 0; i < 10; i++) {
-      s.push(i);
+      s.enqueue(i);
     }
 
     std::cout << "size: " << s.size() << std::endl;
@@ -16,11 +16,12 @@ int main() {
       std::cout << s.peek() << std::endl;
     }
 
-    for(int i = 0; i < 10; i++) {
-      std::cout << s.pop() << std::endl;
+    const int size = s.size();
+    for(int i = 0; i < size; i++) {
+      if (!s.empty()) {
+        std::cout << s.dequeue() << std::endl;
+      }
     }
 
     return 0;
 }
-
-// Hello!
